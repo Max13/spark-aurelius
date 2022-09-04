@@ -22,7 +22,7 @@
   font-weight: 600;
   color: $nav-link-color;
 
-  svg {
+  svg, a > .fa {
     fill: currentColor;
     margin-right: 15px;
     color: $gray-500;
@@ -32,7 +32,7 @@
   &:hover {
     font-weight: 600;
     color: $primary;
-    svg {
+    svg, a > .fa {
       fill: $primary;
     }
   }
@@ -40,7 +40,7 @@
   &.active {
     font-weight: 600;
     color: $primary;
-    svg {
+    svg, a > .fa {
       fill: $primary;
     }
   }
